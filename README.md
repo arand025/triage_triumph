@@ -1,2 +1,3 @@
 # triage_triumph
-A game/simulation that future medical professionals can use to evaluate triage situations and practice the proper steps that need to be taken 
+Triage Triumph is a Python-based game/simulation designed to help medical professionals evaluate triage situations. It replicates emergency room scenarios in which patient conditions must be assessed and prioritized based on their severity. 
+The project aims to enhance hospitals' ability to allocate patients appropriately and, through repeated use, become more proficient in making critical decisions. 
