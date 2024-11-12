@@ -1,13 +1,13 @@
 ### TRIAGE QUIZ GAME ###
 
 ## QUESTIONS (this is the list of questions separated by category (colors, long answer, etc.)
-# questions = [question1, question2, question3, question4, question5, question6, question7, question8]
+# questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9]
+#Actually am not sure if how many questions we add will affect the code, will have to test later
 
 questions = [
     ## 1 - TRIAGE CATEGORY QUESTIONS ##
     [ "An unresponsive male patient has snoring respirations. His breathing improves when you open his airway. What triage category would this patient be considered?\n" ,
     "A 66yo male patient is sitting on the ground. His eyes are open, but he cannot answer or follow directions. What triage category would this patient be considered?\n" ,
-    "In addition to blood, what else does the circulatory system move throughout the body?\n" ,
     "A 50yo man has bilateral fractured femurs. He has a faint radial pulse and a RR of 24. What triage category would this patient be considered?\n" ,
     "A 16yo female who is ambulatory (walking) and says she is O.K. What triage category would this patient be considered?\n" ,
     "A 19yo male with 2nd and 3rd degree burns over 80% of his body. Respirations 24 and pulse about 120. What triage category would this patient be considered?\n" ,
@@ -17,7 +17,7 @@ questions = [
     "A responsive 34yo female has pale, moist skin and respirations of 32/minute. What triage category would this patient be considered?\n"
     "A 34yo man is unresponsive with brain matter showing. What triage category would this patient be considered?\n"],
     
-    ## 2 - DIGESTIVE SYSTEM QUESTIONS ##
+    ## 2 - TRIAGE THESE PATIENTS ##
     ["Where does the digestive system begin?\n" ,
     "True or False: peristalsis is a series of muscle contractions that transports food from the esophagus through to the rest of the digestive system.\n" ,
     "Where does the digestive system end?\n" ,
@@ -154,19 +154,20 @@ questions = [
 # VIP: if you make changes in the question zone, don't forget to synchronise this zone (the variable and the list)!
 
 answers = [
-    ## 1 - CIRCULATORY SYSTEM ANSWERS ##
-    ["heart, blood, blood vessels",
-     "true",
-    "lymph",
-    "false", # 5-6 quarts #
-    "cardiologists",
-    "false",  # it enters into the right ventricle #
-    "arteries",
-    "true",
-    "platelets",
-    "true"],
+    ## 1 - TRIAGE CATEGORY ANSWERS ##
+    ["Immediate (red)",
+     "Immediate (red)",
+    "Delayed (yellow)",
+    "Minor (green)", 
+    "Delayed (yellow),
+    "Expectant (black)", #expected to pass
+    "Delayed (yellow)",
+    "Minor (green)",
+    "Minor (green)",
+    "Immediate (red)", #cardiogenic shock possible
+    "Deceased (black)"], #already dead
     
-    ## 2 - DIGESTIVE SYSTEM ANSWERS ##
+    ## 2 - TRIAGE THESE PATIENTS ANSWERS ##
     ["mouth",
     "true",
     "anus",
