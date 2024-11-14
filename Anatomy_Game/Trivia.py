@@ -18,28 +18,18 @@ questions = [
     "A 34yo man is unresponsive with brain matter showing. What triage category would this patient be considered?\n"],
     
     ## 2 - TRIAGE THESE PATIENTS ##
-    ["Where does the digestive system begin?\n" ,
-    "True or False: peristalsis is a series of muscle contractions that transports food from the esophagus through to the rest of the digestive system.\n" ,
-    "Where does the digestive system end?\n" ,
-    "True or False: the stomach's gastric juice consists of hydrochloric acid and pepcid.\n" ,
-    "What does the liver create, from sugars and carbohydrates?\n" ,
-    "True or False: the oropharynx and the hypopharynx are responsible for breaking down unwanted chemicals such as alcohol.\n" ,
-    "What procedure helps in early detection of colon cancer?\n" ,
-    "True or False: chyme, secreted by the salivary gland, is an enzyme that breaks down starch.\n" ,
-    "What is responsible for the storage and fermentation of indigestible matter?\n" ,
-    "True or False: the parts of the colon are the ascending colon, the transverse colon, the rising colon, the descending colon, and the sigmoid colon.\n"],
+    ["Triage the following patients:\n 43yo- dislocated shoulder\n 54yo- pulseless\n 64yo- open femur fracture that is bleeding profusely\n 90yo- not breathing until airway is opened\n 78yo- screaming 'you are killing us'\n 32yo- intestines protruding out of abdomen\n 27yo- open skull fracture and exposed brain matter\n" , #double check this one
+    "Triage the following patients:\n 23yo- house voice and audible wheezing after being in engine room during fire\n 24yo- unconscious but breathing normally\n 43yo- open head injury w/no brian exposed and is unconscious\n 32yo- massive uncontrolled bleed coming from chest\n 33yo- pneumothroax\n 31yo- partial thickness burn on left leg\n" ,
+    "You arrive on scene for an auto vs pedestrian call. Triage the following patients:\n 12yo- femur fracture\n 32yo- unconscious and not breathing\n 42yo- broken left leg\n 44yo- laceration to the upper arm that has been controlled by a tourniquet\n 32yo- crushed head\n 89yo- severe respiratory distress and wheezing\n 21yo- broken hand\n"],
     
-    ## 3 - ENDOCRINE SYSTEM QUESTIONS ##
-    ["What is the biggest/largest part of the pituitary gland?\n",
-    "True or False: the endocrine system is made up of the pituitary gland, the thyroid gland, the parathyroid gland, adrenal glands, pancreas, and the ovaries (for females) or the testes (for males).\n",
-    "Where is the pituitary gland located?\n" ,
-    "True or False: the human body has three adrenal glands.\n" ,
-    "Which hormones are secreted by the thyroid gland?\n" ,
-    "True or False: the pancreas is responsible for the human fight-or-flight response.\n" ,
-    "Which mineral does the parathyroid hormone regulate?\n" ,
-    "True or False: the endocrine system only affects the brain.\n" ,
-    "Which hormones are produced by the pancreas?\n" ,
-    "True or False: the most common endocrine disease in the United States is diabetes.\n"],
+    ## 3 - GENERAL QUESTIONS##
+    ["Which of the following patients would be considered a delayed patient?\n",
+    "Which of the following is true about START triage?\n",
+    "Which of the following patients would be considered immediate?\n" ,
+    "Which of the following patients would be considered immediate?.\n" ,
+    "Which of the following patients would be considered immediate?\n" ,
+    "Which of the following patients would be considered minor?\n" ,
+    "What is the main goal of triage?\n"],
     
     ## 4 - IMMUNE SYSTEM QUESTIONS ##
     ["Which part of the immune system produce and store cells that fight infection and disease?\n",
@@ -168,7 +158,7 @@ answers = [
     "Deceased (black)"], #already dead
     
     ## 2 - TRIAGE THESE PATIENTS ANSWERS ##
-    ["mouth",
+    ["5 immediate (64,90,78,32 patients), 0 delayed, one minor(43 ", #stopped here to go to work
     "true",
     "anus",
     "false", # hydrochloric acid and pepsin ##
