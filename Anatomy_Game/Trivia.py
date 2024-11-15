@@ -6,23 +6,23 @@
 
 questions = [
     ## 1 - TRIAGE CATEGORY QUESTIONS ##
-    [ "An unresponsive male patient has snoring respirations. His breathing improves when you open his airway. What triage category would this patient be considered?\n" ,
-    "A 66yo male patient is sitting on the ground. His eyes are open, but he cannot answer or follow directions. What triage category would this patient be considered?\n" ,
-    "A 50yo man has bilateral fractured femurs. He has a faint radial pulse and a RR of 24. What triage category would this patient be considered?\n" ,
-    "A 16yo female who is ambulatory (walking) and says she is O.K. What triage category would this patient be considered?\n" ,
-    "A 19yo male with 2nd and 3rd degree burns over 80% of his body. Respirations 24 and pulse about 120. What triage category would this patient be considered?\n" ,
-    "A 42yo woman with no obvious injuries and without a carotid pulse. What triage category would this patient be considered?\n" ,
-    "A 57yo female has a deformed tibia and fibula. She is oriented with respirations of 20 and a pulse of about 100. What triage category would this patient be considered?\n" ,
-    "A 14yo male with a broken arm walking around the scene. What triage category would this patient be considered?\n" ,
-    "A responsive 34yo female has pale, moist skin and respirations of 32/minute. What triage category would this patient be considered?\n"
-    "A 34yo man is unresponsive with brain matter showing. What triage category would this patient be considered?\n"],
+    [ "An unresponsive male patient has snoring respirations. His breathing improves when you open his airway. What triage color would this patient be considered?\n" ,
+    "A 66yo male patient is sitting on the ground. His eyes are open, but he cannot answer or follow directions. What triage color would this patient be considered?\n" ,
+    "A 50yo man has bilateral fractured femurs. He has a faint radial pulse and a RR of 24. What triage color would this patient be considered?\n" ,
+    "A 16yo female who is ambulatory (walking) and says she is O.K. What triage color would this patient be considered?\n" ,
+    "A 19yo male with 2nd and 3rd degree burns over 80% of his body. Respirations 24 and pulse about 120. What triage color would this patient be considered?\n" ,
+    "A 42yo woman with no obvious injuries and without a carotid pulse. What triage color would this patient be considered?\n" ,
+    "A 57yo female has a deformed tibia and fibula. She is oriented with respirations of 20 and a pulse of about 100. What triage color would this patient be considered?\n" ,
+    "A 14yo male with a broken arm walking around the scene. What triage color would this patient be considered?\n" ,
+    "A responsive 34yo female has pale, moist skin and respirations of 32/minute. What triage color would this patient be considered?\n"
+    "A 34yo man is unresponsive with brain matter showing. What triage color would this patient be considered?\n"],
     
-    ## 2 - TRIAGE THESE PATIENTS ##
+    ## 2 - TRIAGE THESE PATIENTS ## *****
     ["Triage the following patients:\n 43yo- dislocated shoulder\n 54yo- pulseless\n 64yo- open femur fracture that is bleeding profusely\n 90yo- not breathing until airway is opened\n 78yo- screaming 'you are killing us'\n 32yo- intestines protruding out of abdomen\n 27yo- open skull fracture and exposed brain matter\n" , #double check this one
     "Triage the following patients:\n 23yo- house voice and audible wheezing after being in engine room during fire\n 24yo- unconscious but breathing normally\n 43yo- open head injury w/no brian exposed and is unconscious\n 32yo- massive uncontrolled bleed coming from chest\n 33yo- pneumothroax\n 31yo- partial thickness burn on left leg\n" ,
     "You arrive on scene for an auto vs pedestrian call. Triage the following patients:\n 12yo- femur fracture\n 32yo- unconscious and not breathing\n 42yo- broken left leg\n 44yo- laceration to the upper arm that has been controlled by a tourniquet\n 32yo- crushed head\n 89yo- severe respiratory distress and wheezing\n 21yo- broken hand\n"],
     
-    ## 3 - GENERAL QUESTIONS##
+    ## 3 - GENERAL QUESTIONS## 
     ["Which of the following patients would be considered a delayed patient?\n",
     "Which of the following is true about START triage?\n",
     "Which of the following patients would be considered immediate?\n" ,
@@ -145,41 +145,31 @@ questions = [
 
 answers = [
     ## 1 - TRIAGE CATEGORY ANSWERS ##
-    ["Immediate (red)",
-     "Immediate (red)",
-    "Delayed (yellow)",
-    "Minor (green)", 
-    "Delayed (yellow),
-    "Expectant (black)", #expected to pass
-    "Delayed (yellow)",
-    "Minor (green)",
-    "Minor (green)",
-    "Immediate (red)", #cardiogenic shock possible
-    "Deceased (black)"], #already dead
+    ["Red",
+     "Red",
+    "Yellow",
+    "Green", 
+    "Yellow" ,
+    "Black", #expected to pass
+    "Yellow",
+    "Green",
+    "Green",
+    "Red", #cardiogenic shock possible
+    "Black"], #already dead
     
     ## 2 - TRIAGE THESE PATIENTS ANSWERS ##
-    ["5 immediate (64,90,78,32 patients), 0 delayed, one minor(43 ", #stopped here to go to work
-    "true",
-    "anus",
-    "false", # hydrochloric acid and pepsin ##
-    "glycogen",
-    "false", # liver #
-    "colonoscopy",
-    "false", # salivary amylase #
-    "large intestine",
-    "false"], # there is no rising colon #
+    ["5 immediate (64,90,78,32 patients), 0 delayed, 1 minor (43), 2 expectant (54,27)", #stopped here to go to work
+    "5 immediate (23,24,43,32,33), 1 delayed (31), 0 minor, 0 expectant",
+    "2 expectant, 1 minor, 2 delayed, 2 immediate"], # only three questions 
 
     ## 3 - ENDOCRINE SYSTEM ANSWERS ##
-    ["frontal lobe",
-    "true", 
-    "brain",
-    "false", # two #
-    "calcitonin, T4, and T3",
-    "false", # adrenal gland ##
-    "calcium",
-    "false", # every organ and cell in the body #
-    "insulin and glucagon",
-    "true"],
+    ["Patient who is laying supine complaining they cannot feel or move extremities",
+    "It utilizes basic steps for brief assessment", 
+    "A patient with an open pneumothorax",
+    "A 52yo patient who is running around screaming 'We are going to die", 
+    "First responder with femur fracture",
+    "23yo who has an abrasion on the whole posterior side of left leg",
+    "To be rapid and brief with the assessment in order to spread patients to treatment units"],
 
     ## 4 - IMMUNE SYSTEM ANSWERS ##
     ["lymph nodes",
