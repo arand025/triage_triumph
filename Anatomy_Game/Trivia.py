@@ -31,19 +31,14 @@ questions = [
     "Which of the following patients would be considered minor?\n" ,
     "What is the main goal of triage?\n"],
     
-    ## 4 - IMMUNE SYSTEM QUESTIONS ##
-    ["Which part of the immune system produce and store cells that fight infection and disease?\n",
-    "True or False: leukocytes are red blood cells that identify and eliminate pathogens.\n",
-    "What is the best way to diagnose immune deficiencies?\n",
-    "True or False: disorders of the immune system are called anti-immune diseases.\n",
-    "What kind of medication is used to reduce immune responses in overactive/autoimmune conditions?\n",
-    "True or False: fever and fatigue are common signs that the immune system is not functioning properly.\n",
-    "What type of antibody is currently used to treat cancer?\n",
-    "True or False: a high white blood cell count is called leukocytosis.\n",
-    "Which system is also a part of the immune system?\n",
-    "True or False: adaptive immunity forgets threats to the body (such as viruses, bacteria, and parasites) to make future responses more efficient.\n"],
+    ## 4 - DELEGATION QUESTIONS ##
+    ["Which is true about nursing delegation?\n", 
+    "The nurse taught a patient's caregiver how to administer Lovenox(enoxaparin sodium)injections to a patient. How should the RN evaluate if the teaching was effective prior to discharge?\n"
+,
 
-    ## 5 - INTEGUMENTARY SYSTEM QUESTIONS ##
+
+
+    ## 5 - INTEGUMENTARY SYQUESTIONS ##
     ["Skin accounts for what percentage of total body weight?\n",
     "True or False: Skin is the body's largest organ.\n",
     "What are the three main layers of skin tissue?\n",
