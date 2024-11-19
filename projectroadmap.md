@@ -5,16 +5,24 @@
 - [x] Add license
 - [x] Edit and commit changes in the readme.md file in repository
 - [x] Search for existing codes on triaging
-- [x] Evaluate and run existing code 
+- [x] Evaluate and run existing code
 
 # Sprint Two 
-- [ ] Decide on and add additional feature to quiz template
 - [ ] Add questions to quiz template [Ashleen]
-- [ ] Add questions to quiz template [Katherine]
-- [ ] Update ReadMe
+- [x] Add questions to quiz template [Katherine]
+- [x] Update ReadMe.md
+- [x] Update projectroadmap
+- [ ] Run code on device
+- [ ] Fix errors
       
 # Sprint Three
-- [ ] Also haven't looked, but will update when.
-- [ ] Make PowerPoint presentation?
+- [ ] Continue to add questions 
+- [ ] Final changes to code
+- [ ] Color code answers
+- [ ] Make PowerPoint presentation
+- [ ] Update projectroadmap
+- [ ] Evaluate and run code
+- [ ] Identify errors and fix
+- [ ] Submit
 
 
