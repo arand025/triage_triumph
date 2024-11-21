@@ -14,6 +14,7 @@
 - [x] Update projectroadmap
 - [ ] Run code on device
 - [ ] Fix errors
+- [ ] look for ways to enhance or add to the code 
       
 # Sprint Three
 - [ ] Continue to add questions 
