@@ -1,4 +1,4 @@
-## General Questions 
+## general Questions 
 
 question1 = ("Which of the following patients would be considered a delayed patient?\n")
 question2 = ("Which of the following is true about START triage?\n")
