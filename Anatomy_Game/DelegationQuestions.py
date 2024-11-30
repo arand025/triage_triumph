@@ -1,3 +1,5 @@
+#delegate
+
 question1 = ("Which is true about nursing delegation?\n A.the nurse can transfer accountability\n B.the nurse is no longer responsible\n C.the nurse can assume all UAPs are qualified\n D.the nurse retains accountability\n")
 question2 = ("The nurse taught a patient's caregiver how to administer Lovenox(enoxaparin sodium)injections to a patient. How should the RN evaluate if the teaching was effective prior to discharge?\n A. arrange for the follow up with home care nurse\n B. ask the caregiver to 'demeonstrate back' her ability to administer it\n C. moitioring patients lab work before discharge\n D.asking the caregiver what she found helpful about the teaching\n")
 question3 = ("With the delegated task, who is accountable?\n A.Delegator\n B.Delegator\n C.Nurse manager\n D.None\n")
