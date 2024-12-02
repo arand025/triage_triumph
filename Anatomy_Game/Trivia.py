@@ -44,7 +44,7 @@ questions = [
     "A nurse and an unlicensed assistive personnel (UAP) are caring for clients in a labor and birth unit. Which task should the nurse assign to the UAP?\n A.preform a funddal check on a 2-day postpartum client.\n B.Remove a fetal monitor and assist patient to bathroom.\n C.Teach a new mother how to bottle feed her infant.\n"],
 
     ##5 SCENARIO QUESTIONS
-    ["A 40yo woman currently on chemotherapy, with a temperature of 102F. What level of triage is this?",
+    ["A 40yo woman currently on chemotherapy with a temperature of 102F. What level of triage is this?",
     "A 5yo has sudden onset of left foot pain. They have a history of diabetes requiring insulin and their left foot cold to touch- no pulses. What level triage would you place this?",
     "A 19yo male brought in by police, with ETOH on breath, an unsteady gait, large head lac, and slurred speech but oriented. What level triage would you place this?",
     "A 24yo patient is brought in with severe respiratory distress. Their SPo2 is 80%. What level triage would you place this?",
@@ -52,13 +52,20 @@ questions = [
     "A healthy 52yo man is brought into the ED. He ran out of BP medication and his blood pressure is 150/92. What level triage would you place this?",
     "A 12yo girl is brought into the ED with poison ivy. What level triage would you place this?",
     "A 19yo boy is brought in with a sore throat and fever. What level triage would you place this?",
-    "A 29yo woman i sbrough into the ED with a UTI. What level triage would you place this?"]
+    "A 29yo woman is brought into the ED with a UTI. What level triage would you place this?"]
+
+    ##6 CONDITIONS
+    ["What triage color would 'Asphyxia' be considered?",
+     "What triage color would 'Stable abdominal wounds' be considered?",
+     "What triage color would '2nd/3rd degree burns' be considered?",
+     "What triage color would 'Unresponsive patients' be considered?",
+     "What triage color would 'Upper extremity fractures' be considered?",
+     "What triage color would 'Soft tissue injury' be considered?",
+     "What triage color would 'High spinal cord injury' be considered?",
+     "What triage color would 'Unstable chest and abdominal wounds' be considered?",
+     "What triage color would 'Fractures requiring open reduction' be considered?",
+     "What triage color would 'Extensive burns over 60% of body' be considered?"]
 ]
-
-
-
-
-
 
 ## ANSWERS ##
 # VIP: if you make changes in the question zone, don't forget to synchronise this zone (the variable and the list)!
@@ -101,12 +108,27 @@ answers = [
     "D",
     "C",
     "B"],
+
+    ## 5
+    []
+
+    ##6 CONDITION ANSWERS
+    ["Red",
+     "Yellow",
+     "Green",
+     "Black",
+     "Green",
+     "Yellow",
+     "Black",
+     "Red",
+     "Yellow",
+     "Black"]
     ]  
 
 ### CATEGORIES ######
 
 
-categories =["scenario" ,  "general" , "patients" , "delegation" , "category" , "lymphatic"]
+categories =["scenario" ,  "general" , "patients" , "delegation" , "category" , "condition"]
 greetings = [
             "Let's get to the heart of the matter...the circulatory system!" , 
             "All about the gut...on to the digestive system!",
@@ -267,11 +289,10 @@ def game_end():
             game_control()
         elif no.count(again) == True:
             print("        Congratulations!  You've completed the game."      )
-            print("            https://github.com/ksu-hmi/Anatomy-Game"       )
+            print("         https://github.com/ksu-hmi/triage_triumph        ")
             print("  Questions generated from information gathered from quizlet.com   ")
-            print("  at the following address:  https://www.livescience.com/health        ")
             print("                                                         ")
-            print("                   Thanks for playing!"                    )
+            print("                   Thanks for playing!                   ")
             print("                ------ !! B Y E !! ------                  ")
             
         else:
