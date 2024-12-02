@@ -8,7 +8,7 @@
 - [x] Evaluate and run existing code
 
 # Sprint Two 
-- [ ] Add questions to quiz template [Ashleen]
+- [x] Add questions to quiz template [Ashleen]
 - [x] Add questions to quiz template [Katherine]
 - [x] Update ReadMe.md
 - [x] Update projectroadmap
