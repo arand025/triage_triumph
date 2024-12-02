@@ -12,9 +12,9 @@
 - [x] Add questions to quiz template [Katherine]
 - [x] Update ReadMe.md
 - [x] Update projectroadmap
-- [ ] Run code on device
-- [ ] Fix errors
-- [ ] look for ways to enhance or add to the code 
+- [x] Run code on device
+- [x] Fix errors
+- [x] look for ways to enhance or add to the code 
       
 # Sprint Three
 - [ ] Continue to add questions 

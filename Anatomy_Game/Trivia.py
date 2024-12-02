@@ -106,7 +106,7 @@ answers = [
 ### CATEGORIES ######
 
 
-categories =["circulatory" ,  "digestive" , "endocrine" , "immune" , "integumentary" , "lymphatic" , "muscular" , "nervous" ,  "reproductive" , "respiratory" ,  "skeletal" ,  "urinary"]
+categories =["scenario" ,  "general" , "patients" , "delegation" , "category" , "lymphatic"]
 greetings = [
             "Let's get to the heart of the matter...the circulatory system!" , 
             "All about the gut...on to the digestive system!",
