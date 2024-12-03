@@ -52,7 +52,9 @@ questions = [
     "A healthy 52yo man is brought into the ED. He ran out of BP medication and his blood pressure is 150/92. What level triage would you place this?",
     "A 12yo girl is brought into the ED with poison ivy. What level triage would you place this?",
     "A 19yo boy is brought in with a sore throat and fever. What level triage would you place this?",
-    "A 29yo woman is brought into the ED with a UTI. What level triage would you place this?"]
+    "A 29yo woman is brought into the ED with a UTI. What level triage would you place this?",
+    "A 22-year-old is brought into the ED with right LLQ pain since early am and nausea. They have no appetite. What level triage would you place this?",
+    "A 45-yr old obese female comes to the ED with complaints of LLE pain/swelling. IT started 2 days ago after driving for 12 hrs What level triage would you place this?"],
 
     ##6 CONDITIONS
     ["What triage color would 'Asphyxia' be considered?",
@@ -64,7 +66,7 @@ questions = [
      "What triage color would 'High spinal cord injury' be considered?",
      "What triage color would 'Unstable chest and abdominal wounds' be considered?",
      "What triage color would 'Fractures requiring open reduction' be considered?",
-     "What triage color would 'Extensive burns over 60% of body' be considered?"]
+     "What triage color would 'Extensive burns over 60% of body' be considered?"],
 ]
 
 ## ANSWERS ##
@@ -110,7 +112,17 @@ answers = [
     "B"],
 
     ## 5
-    []
+    ["Level 2", 
+    "Level 2", 
+    "Level 2",
+    "Level 1"'
+    "Level 1",
+    "Level 5", 
+    "Level 5",
+    "Level 4",
+    "Level 4"
+    "Level 3",
+    "Level 3"],
 
     ##6 CONDITION ANSWERS
     ["Red",
