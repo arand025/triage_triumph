@@ -5,7 +5,7 @@
 #Actually am not sure if how many questions we add will affect the code, will have to test later
 
 questions = [
-    ## 1 - TRIAGE CATEGORY QUESTIONS ##
+    ## 1 - COLOR TRIAGE CATEGORY QUESTIONS ##
     [ "An unresponsive male patient has snoring respirations. His breathing improves when you open his airway. What triage color would this patient be considered?\n" ,
     "A 66yo male patient is sitting on the ground. His eyes are open, but he cannot answer or follow directions. What triage color would this patient be considered?\n" ,
     "A 50yo man has bilateral fractured femurs. He has a faint radial pulse and a RR of 24. What triage color would this patient be considered?\n" ,
@@ -140,7 +140,7 @@ answers = [
 ### CATEGORIES ######
 
 
-categories =["scenario" ,  "general" , "patients" , "delegation" , "category" , "condition"]
+categories =["Triage Category" ,  "Triage Patients" , "Scenario" , "General" , "Delegation" , "Condition"]
 greetings = [
             "Let's get to the heart of the matter...the circulatory system!" , 
             "All about the gut...on to the digestive system!",
