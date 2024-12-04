@@ -67,6 +67,30 @@ questions = [
      "What triage color would 'Unstable chest and abdominal wounds' be considered?\n",
      "What triage color would 'Fractures requiring open reduction' be considered?\n",
      "What triage color would 'Extensive burns over 60% of body' be considered?\n"],
+
+
+    ##7 START 
+    ["What does START stand for?\n",
+     "What Triage System does the United States use Emergency Department?\n",
+     "Which one of these parameters is not one of the three physiological parameters that are assessed according to START triage?\n A.Apperence\n B.Pulse\n C.Respiration\n D.Mental Status\n",
+     "How long should START triage take per patient?\n",
+     "What is STEP TWO of START triage?\n",
+     "What priority is a patient that's not breathing, even after attempting to open airway?\n",
+     "What are the characteristics of a priority 0 (black tag) patient?\n",]
+    
+
+   ##8 RANDOM
+     ["The nurse knows that common mechanisms of injury involved in penetrating trauma include all of the following except which of the following?\n A.Stabbings\n B.Gunshot wounds\n C.Motor vehicle collisions\n D.Impalements\n",
+      "True or False: psycological capabilities is a large challange for triage nurses?\n",
+      "Which of the following are ethcical concerns for Triaging?(type all that apply)\n Resource Allication\n Undertriage\n Discrimination\n All of the above\n",
+      "True or False: Human resource managements and structural preformance create a large amount of challanges for triaging?\n",
+      "Is it more common for patients to be triaged as under severe or over severe?\n",
+      "What is the Acronym for the exam nurses must take?\n",
+      "What scale are patients asked to rate their pain on?\n",
+      "Type out the five stages of triaging.(place a common between each level)\n",
+
+     
+
 ]
 
 ## ANSWERS ##
@@ -115,12 +139,12 @@ answers = [
     ["Level 2", 
     "Level 2", 
     "Level 2",
-    "Level 1"'
+    "Level 1",
     "Level 1",
     "Level 5", 
     "Level 5",
     "Level 4",
-    "Level 4"
+    "Level 4",
     "Level 3",
     "Level 3"],
 
@@ -134,26 +158,44 @@ answers = [
      "Black",
      "Red",
      "Yellow",
-     "Black"]
-    ]  
+     "Black"],
+   
+   ##7 START 
+    ["Simple triage and rapid treatment",
+    "START",
+    "A",
+    "30 seconds",
+    "Assesing RPM",
+    "Priorty 0",
+    "Not breathing"],
+
+  ##8 RANDOM
+    ["Gunshot wounds",
+     "True",
+     "All of the above"'
+     "True",
+     "Under severe",
+     "NCELX-RN",
+     "1 to ten",
+     "Resuscitation,Emergency,Urgent,Semi-Urgent,Non-urgent",],
+
+
+]  
 
 ### CATEGORIES ######
 
 
-categories =["Triage Category" ,  "Triage Patients" , "Scenario" , "General" , "Delegation" , "Condition"]
+categories =["Triage Category" ,  "Triage Patients" , "Scenario" , "General" , "Delegation" , "Condition","START","RANDOM"]
 greetings = [
-            "Let's get to the heart of the matter...the circulatory system!" , 
-            "All about the gut...on to the digestive system!",
-            "This gland is your gland....on to the endocrine system!" , 
-            "Our hidden heroes...the immune system." , 
-            "The body's shield...the integumentary system!",
-            "The invisible system...the lymphatic system!" , 
-            "You think you're tough eh?...let's try the muscular system." ,
-            "Okay, brainiac...on to the nervous system." ,  
-            "Let's give the reproductive system a try." ,
-            "Take a deep breath, as we proceed to the respiratory system." ,
-            "You won't find these humerus...but on to the skeletal system." , 
-            "Gotta go right now...to the urinary system."
+            "Rank it, bag it, and tag it." , 
+            "Triage Time – Let’s sort the chaos",
+            "Time to put on the triage hat!" , 
+            "One problem at a time, like a pro!" , 
+            "Taking the triage express – no time to waste!",
+            "Into the triage trenches – let's roll!" , 
+            "Start simple, finish strong!",
+            "Mission Impossible? Not today!" ,
+    
             ]
 ## GLOBAL GAME SETTINGS ##
 
