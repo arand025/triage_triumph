@@ -43,7 +43,7 @@ questions = [
     "The nurse is having an exceptionally busy shift on an obstetrical unit. Which task is the nurse justified in delegating to an unlicensed care provider?\n A.Assessing the size and quantity of clots that are in a client's bedpan and informing the nurse\n B.Giving an anti-inflammatory medication to a client who is eight hours postdelivery\n C.Emptying a client's Foley catheter bag and reporting the volume to the nurse\n D.Helping a first-time mother achieve a good latch when breastfeeding the infant\n",
     "A nurse and an unlicensed assistive personnel (UAP) are caring for clients in a labor and birth unit. Which task should the nurse assign to the UAP?\n A.preform a funddal check on a 2-day postpartum client.\n B.Remove a fetal monitor and assist patient to bathroom.\n C.Teach a new mother how to bottle feed her infant.\n"],
 
-    ##5 SCENARIO QUESTIONS
+    ## 5 - SCENARIO QUESTIONS
     ["A 40yo woman currently on chemotherapy with a temperature of 102F. What level of triage is this?",
     "A 5yo has sudden onset of left foot pain. They have a history of diabetes requiring insulin and their left foot cold to touch- no pulses. What level triage would you place this?",
     "A 19yo male brought in by police, with ETOH on breath, an unsteady gait, large head lac, and slurred speech but oriented. What level triage would you place this?",
@@ -52,7 +52,7 @@ questions = [
     "A healthy 52yo man is brought into the ED. He ran out of BP medication and his blood pressure is 150/92. What level triage would you place this?",
     "A 12yo girl is brought into the ED with poison ivy. What level triage would you place this?",
     "A 19yo boy is brought in with a sore throat and fever. What level triage would you place this?",
-    "A 29yo woman is brought into the ED with a UTI. What level triage would you place this?"]
+    "A 29yo woman is brought into the ED with a UTI. What level triage would you place this?"],
 
     ##6 CONDITIONS
     ["What triage color would 'Asphyxia' be considered?",
@@ -109,8 +109,7 @@ answers = [
     "C",
     "B"],
 
-    ## 5
-    []
+    ## 5 SCENARIO QUESTIONS ANSWERS
 
     ##6 CONDITION ANSWERS
     ["Red",
@@ -179,7 +178,7 @@ def game_intro():
 
     while name == None:
         name = input("What's your name? ")
-        print("Welcome, "+name+", to Triage Triump!")
+        print("Welcome, "+name+", to Triage Triumph!")
         correct = input("Did we get your name right? ")
         if yes.count(correct) == True: ##"Yes" or ok == "yes" or ok == "YES":
             print("Perfect, let's move on!\n")
@@ -239,7 +238,7 @@ def play_quest(x):
         print("Well done,", name + ", 10 points gained! Let's move to the next question.\n")
         points +=10
     else:
-        print("Wrong! 0 points gained, the correct answer was:", answers[category - 1][x], ". Next question...\n")
+        print("Wrong! 0 points gained, the correct answer was:", answers[category - 1][x],". Next question...\n")
     last_cat = len(questions[category - 1])
     if x == last_cat -1 : 
         global categories

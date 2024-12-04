@@ -12,7 +12,7 @@ question9 = ("What triage color would 'Fractures requiring open reduction' be co
 question10 = ("What triage color would 'Extensive burns over 60% of body' be considered?")
 
 #answers
-answer1 = ("Red")
+answer1 = ("Red".lower)
 answer2 = ("Yellow")
 answer3 = ("Green")
 answer4 = ("Black")
