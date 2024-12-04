@@ -76,7 +76,7 @@ questions = [
      "How long should START triage take per patient?\n",
      "What is STEP TWO of START triage?\n",
      "What priority is a patient that's not breathing, even after attempting to open airway?\n",
-     "What are the characteristics of a priority 0 (black tag) patient?\n",]
+     "What are the characteristics of a priority 0 (black tag) patient?\n",],
     
 
    ##8 RANDOM
@@ -87,7 +87,7 @@ questions = [
       "Is it more common for patients to be triaged as under severe or over severe?\n",
       "What is the Acronym for the exam nurses must take?\n",
       "What scale are patients asked to rate their pain on?\n",
-      "Type out the five stages of triaging.(place a common between each level)\n",
+      "Type out the five stages of triaging.(place a common between each level)\n",],
 
      
 
@@ -178,8 +178,6 @@ answers = [
      "NCELX-RN",
      "1 to ten",
      "Resuscitation,Emergency,Urgent,Semi-Urgent,Non-urgent",],
-
-
 ]  
 
 ### CATEGORIES ######
