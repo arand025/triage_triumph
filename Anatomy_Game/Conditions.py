@@ -11,6 +11,9 @@ question8 = ("What triage color would 'Unstable chest and abdominal wounds' be c
 question9 = ("What triage color would 'Fractures requiring open reduction' be considered?")
 question10 = ("What triage color would 'Extensive burns over 60% of body' be considered?")
 
+questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
+
+
 #answers
 answer1 = ("Red".lower)
 answer2 = ("Yellow")
@@ -22,3 +25,6 @@ answer7 = ("Black")
 answer8 = ("Red")
 answer9 = ("Yellow")
 answer10 = ("Black")
+
+
+answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, abswer10]
