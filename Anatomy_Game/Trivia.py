@@ -259,7 +259,7 @@ def print_play_status(x):
 
 def start_system() : 
     
-    system = int(input("Pick a category by typing a number (0 to exit) : 1-12\n"))
+    system = int(input("Pick a category by typing a number (0 to exit) : 1-8\n"))
     if system == 0 : 
         game_end()
     else :
