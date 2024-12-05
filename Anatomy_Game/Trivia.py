@@ -28,7 +28,7 @@ questions = [
     "Which of the following patients would be considered immediate?\n A.a patient with burns to the whole lower half of their body\n B.16-year-old with a Femur fracture\n C.52-year-old with heart burn and a minor abrasion to the left elbow\n D.patient with an open pneumothorax\n" ,
     "Which of the following patients would be considered immediate?.\n A.a patient who is siting on the curb with a broken ankle and cannot walk\n B.a patient with a minor laceration to the left thigh\n C.a patient who has a femur fracture\n D.52-year-old patient who is running and screaming 'we are going to die'\n" ,
     "Which of the following patients would be considered immediate?\n A.28 yo with a back injury\n B.bystander w/ circumferential burn to forearm\n C.74 yo w/ both legs amputated\n D.first responder w/ femur fracture\n" ,
-    "Which of the following patients would be considered minor?\n A. 44 yo patient who is cool, pale, diaphoretic\n B.23 yo who has an abrasion on the whole posterior side of left leg\n C.patient who is unconscious and breathing 40 times a min\n D.32 yo w/ bilateral femur fractures\n D.23 yo who has an abrasion on the whole posterior side of left leg\n" ,
+    "Which of the following patients would be considered minor?\n A. 44 yo patient who is cool, pale, diaphoretic\n B.23 yo who has an abrasion on the whole posterior side of left leg\n C.patient who is unconscious and breathing 40 times a min\n D.32 yo w/ bilateral femur fractures\n F.23 yo who has an abrasion on the whole posterior side of left leg\n" ,
     "What is the main goal of triage?\n A.to assess each patient thoroughly and transport to the closest facility\n B.to transport all immediate patients as soon as the hospitals are open\n C.to be rapid and brief w/ the assessment in order to spread patients to treatment units\n D.to be rapid in the transportation and treatment of the expectant patients\n"],
     
     ## 4 - DELEGATION QUESTIONS ##
@@ -115,12 +115,12 @@ answers = [
     "2 expectant, 1 minor, 2 delayed, 2 immediate"], # only three questions 
 
     ## 3 - GENERAL QUESTIONS ANSWERS ##
-    ["Patient who is laying supine complaining they cannot feel or move extremities",
-    "It utilizes basic steps for brief assessment", 
-    "A patient with an open pneumothorax",
-    "A 52yo patient who is running around screaming 'We are going to die", 
-    "First responder with femur fracture",
-    "23yo who has an abrasion on the whole posterior side of left leg",
+    ["C",
+    "A", 
+    "D",
+    "D", 
+    "D",
+    "E",
     "To be rapid and brief with the assessment in order to spread patients to treatment units"],
 
     ## 4 - DELAGATION QUESTION ANSWERS ##
@@ -287,7 +287,7 @@ def play_quest(x):
     global questions
     global answers
     answerPlayer = input(questions[category - 1][x])
-    if answerPlayer.lower() == answers[category - 1][x]:
+    if answerPlayer.lower() == answers[category - 1][x].lower():
         print("Well done,", name + ", 10 points gained! Let's move to the next question.\n")
         points +=10
     else:
