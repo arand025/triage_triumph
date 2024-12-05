@@ -17,12 +17,12 @@
 - [x] look for ways to enhance or add to the code 
       
 # Sprint Three
-- [ ] Continue to add questions 
+- [x] Continue to add questions 
 - [ ] Final changes to code
 - [ ] Color code answers
-- [ ] Make PowerPoint presentation
+- [x] Make PowerPoint presentation
 - [ ] Update projectroadmap
-- [ ] Evaluate and run code
+- [x] Evaluate and run code
 - [ ] Identify errors and fix
 - [ ] Submit
 
