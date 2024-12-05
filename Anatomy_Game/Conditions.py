@@ -15,15 +15,15 @@ questions = [question1, question2, question3, question4, question5, question6, q
 
 
 #answers
-answer1 = ("Red")
-answer2 = ("Yellow")
-answer3 = ("Green")
-answer4 = ("Black")
-answer5 = ("Green")
-answer6 = ("Yellow")
-answer7 = ("Black")
-answer8 = ("Red")
-answer9 = ("Yellow")
+answer1 = ("red")
+answer2 = ("yellow")
+answer3 = ("green")
+answer4 = ("black")
+answer5 = ("green")
+answer6 = ("yellow")
+answer7 = ("black")
+answer8 = ("red")
+answer9 = ("yellow")
 answer10 = ("Black")
 
 
