@@ -13,13 +13,13 @@ question10 = ("A 34yo man is unresponsive with brain matter showing. What triage
 
 
 
-answer1 = ("Red\n")
-answer2 = ("Red\n")
-answer3 = ("Yellow\n")
-answer4 = ("Green\n") 
-answer5 = ("Yellow\n")
-answer6 = ("Black\n") 
-answer7 = ("Yellow\n")
-answer8 = ("Green\n")
-answer9 = ("Red\n")
-answer10 = ("Black\n")
+answer1 = ("Red")
+answer2 = ("Red")
+answer3 = ("Yellow")
+answer4 = ("Green") 
+answer5 = ("Yellow")
+answer6 = ("Black") 
+answer7 = ("Yellow")
+answer8 = ("Green")
+answer9 = ("Red")
+answer10 = ("Black")
