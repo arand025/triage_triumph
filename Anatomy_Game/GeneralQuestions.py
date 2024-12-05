@@ -6,7 +6,7 @@ question3 = ("Which of the following patients would be considered immediate?\n A
 question4 = ("Which of the following patients would be considered immediate?.\n A.a patient who is siting on the curb with a broken ankle and cannot walk\n B.a patient with a minor laceration to the left thigh\n C.a patient who has a femur fracture\n D.52-year-old patient who is running and screaming 'we are going to die'\n")
 question5 = ("Which of the following patients would be considered immediate?\n A.28 yo with a back injury\n B.bystander w/ circumferential burn to forearm\n C.74 yo w/ both legs amputated\n D.first responder w/ femur fracture\n")
 question6 = ("Which of the following patients would be considered minor?\n A. 44 yo patient who is cool, pale, diaphoretic\n B.23 yo who has an abrasion on the whole posterior side of left leg\n C.patient who is unconscious and breathing 40 times a min\n D.32 yo w/ bilateral femur fractures\n F.23 yo who has an abrasion on the whole posterior side of left leg\n")
-question7 = ( "What is the main goal of triage?\n A.to assess each patient thoroughly and transport to the closest facility\n B.to transport all immediate patients as soon as the hospitals are open\n C.to be rapid and brief w/ the assessment in order to spread patients to treatment units\n D.to be rapid in the transportation and treatment of the expectant patients\n")
+question7 = ("What is the main goal of triage?\n A.to assess each patient thoroughly and transport to the closest facility\n B.to transport all immediate patients as soon as the hospitals are open\n C.to be rapid and brief w/ the assessment in order to spread patients to treatment units\n D.to be rapid in the transportation and treatment of the expectant patients\n")
 
 
 
