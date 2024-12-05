@@ -99,7 +99,7 @@ questions = [
 answers = [
     ## 1 - TRIAGE CATEGORY ANSWERS ##
     ["Red",
-     "Red",
+    "Red",
     "Yellow",
     "Green", 
     "Yellow" ,

@@ -15,7 +15,7 @@ questions = [question1, question2, question3, question4, question5, question6, q
 
 
 #answers
-answer1 = ("Red".lower)
+answer1 = ("Red")
 answer2 = ("Yellow")
 answer3 = ("Green")
 answer4 = ("Black")
@@ -27,4 +27,4 @@ answer9 = ("Yellow")
 answer10 = ("Black")
 
 
-answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, abswer10]
+answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10]
