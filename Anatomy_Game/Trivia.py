@@ -343,7 +343,8 @@ def game_end():
             return "You got a: D- Time to start studying."
         else:
             return "You got a F- time to hit the books!"
-        
+    grade = letter_grade(points)
+    
     again = None
     
     while again == None:
@@ -354,6 +355,7 @@ def game_end():
         elif no.count(again) == True:
             print("        Congratulations!  You've completed the game."      )
             print("         https://github.com/ksu-hmi/triage_triumph        ")
+            print("          ", grade,"                 ")
             print("  Questions generated from information gathered from quizlet.com   ")
             print("                                                         ")
             print("                   Thanks for playing!                   ")
