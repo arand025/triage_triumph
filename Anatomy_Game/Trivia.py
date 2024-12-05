@@ -183,7 +183,7 @@ answers = [
 ### CATEGORIES ######
 
 
-categories =["Triage Category" ,  "Triage Patients" , "Scenario" , "General" , "Delegation" , "Condition","START","RANDOM"]
+categories =["Triage Category" ,  "Triage Patients" , "Scenario" , "General" , "Delegation" , "Condition","START","Random"]
 greetings = [
             "Rank it, bag it, and tag it." , 
             "Triage Time – Let’s sort the chaos",
