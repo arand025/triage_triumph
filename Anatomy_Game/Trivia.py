@@ -98,16 +98,16 @@ questions = [
 
 answers = [
     ## 1 - TRIAGE CATEGORY ANSWERS ##
-    ["Red",
-    "Red",
-    "Yellow",
-    "Green", 
-    "Yellow" ,
-    "Black", #expected to pass
-    "Yellow",
-    "Green",
-    "Red", #cardiogenic shock possible
-    "Black"], #already dead
+    ["red",
+    "red",
+    "yellow",
+    "green", 
+    "yellow" ,
+    "black", #expected to pass
+    "yellow",
+    "green",
+    "red", #cardiogenic shock possible
+    "black"], #already dead
     
     ## 2 - TRIAGE THESE PATIENTS ANSWERS ##
     ["5 immediate (64,90,78,32 patients), 0 delayed, 1 minor (43), 2 expectant (54,27)", #stopped here to go to work
