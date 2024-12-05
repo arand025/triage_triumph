@@ -121,7 +121,7 @@ answers = [
     "D", 
     "D",
     "E",
-    "To be rapid and brief with the assessment in order to spread patients to treatment units"],
+    "C"],
 
     ## 4 - DELAGATION QUESTION ANSWERS ##
     ["D",
