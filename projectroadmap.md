@@ -18,12 +18,14 @@
       
 # Sprint Three
 - [x] Continue to add questions 
-- [ ] Final changes to code
-- [ ] Color code answers
+- [x] Final changes to code
+- [x] final grade at end of game
+- [x] answers are not case sensitive
+- [x] terms of encouragement after finishing game 
 - [x] Make PowerPoint presentation
-- [ ] Update projectroadmap
+- [x] Update projectroadmap
 - [x] Evaluate and run code
-- [ ] Identify errors and fix
+- [x] Identify errors and fix
 - [ ] Submit
 
 
