@@ -172,7 +172,7 @@ answers = [
   ##8 RANDOM
     ["Gunshot wounds",
      "True",
-     "All of the above"'
+     "All of the above",
      "True",
      "Under severe",
      "NCELX-RN",
