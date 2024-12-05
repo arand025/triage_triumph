@@ -2,7 +2,7 @@
 
 ## QUESTIONS (this is the list of questions separated by category (colors, long answer, etc.)
 # questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9]
-#Actually am not sure if how many questions we add will affect the code, will have to test later
+
 
 questions = [
     ## 1 - COLOR TRIAGE CATEGORY QUESTIONS ##
@@ -110,7 +110,7 @@ answers = [
     "black"], #already dead
     
     ## 2 - TRIAGE THESE PATIENTS ANSWERS ##
-    ["5 immediate (64,90,78,32 patients), 0 delayed, 1 minor (43), 2 expectant (54,27)", #stopped here to go to work
+    ["5 immediate (64,90,78,32 patients), 0 delayed, 1 minor (43), 2 expectant (54,27)", 
     "5 immediate (23,24,43,32,33), 1 delayed (31), 0 minor, 0 expectant",
     "2 expectant, 1 minor, 2 delayed, 2 immediate"], # only three questions 
 
@@ -183,7 +183,7 @@ answers = [
 ### CATEGORIES ######
 
 
-categories =["Triage Category" ,  "Triage Patients" , "Scenario" , "General" , "Delegation" , "Condition","START","Random"]
+categories =["Triage Category" ,  "Triage Patients" , "General" , "Scenario" , "Delegation" , "Condition", "START", "Random"]
 greetings = [
             "Rank it, bag it, and tag it." , 
             "Triage Time – Let’s sort the chaos",
@@ -332,6 +332,18 @@ def game_end():
 
     print("\nYou finished the game with a total of", points, "points! \n")
 
+    def letter_grade(points):
+        if points >= 600:
+            return "You got an: A! Studying pays off!"
+        elif points >= 530:
+            return "You got a: B! So close!"
+        elif points >= 465:
+            return "You got a: C- Better luck next time!"
+        elif points >= 400:
+            return "You got a: D- Time to start studying."
+        else:
+            return "You got a F- time to hit the books!"
+        
     again = None
     
     while again == None:
